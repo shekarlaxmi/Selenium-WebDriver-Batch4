@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test1"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.018">
+  <properties />
+  
+  
+            <testcase name="createStudentProfile" time="0.009" classname="testNGPckage.Annotations2" />
+                <testcase name="editStudentProfile" time="0.002" classname="testNGPckage.Annotations2" />
+                <testcase name="test" time="0.003" classname="testNGPckage.Annotations2" />
+                <testcase name="search" time="0.004" classname="testNGPckage.Annotations2" />
+      
+</testsuite>

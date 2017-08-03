@@ -33,10 +33,7 @@ public class BaseTest {
 	}
 	
 	@BeforeMethod
-	public synchronized void beforeEachTestCase(Method method){
-		//Load test data
-		dp.loadTestData(method.getName(), "1");
-		
+	public synchronized void beforeEachTestCase(){
 		if(browser.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/chromedriver.exe");
 			driver = new ChromeDriver();

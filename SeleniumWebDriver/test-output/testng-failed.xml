@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="chrome test(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.SearchFlightsNewTours">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeEachTestCase"/>
+          <include name="afterEachTestCase"/>
+          <include name="searchingFlights"/>
+          <include name="afterSuite"/>
+          <include name="beforeExecution"/>
+        </methods>
+      </class> <!-- testCases.SearchFlightsNewTours -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

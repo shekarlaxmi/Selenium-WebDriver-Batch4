@@ -26,7 +26,6 @@ public class BookFlight extends BaseTest {
 		
 		logger.log(LogStatus.INFO, "Test case execution is started");
 		
-		driver.get(url);
 		
 		driver.manage().window().maximize();
 		

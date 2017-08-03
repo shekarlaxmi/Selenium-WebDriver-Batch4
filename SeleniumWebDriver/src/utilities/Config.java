@@ -24,8 +24,8 @@ public class Config {
 
 		for(int i=1;i<sheet.getLastRowNum();i++){
 			try{
-				XSSFCell cellVariable = sheet.getRow(i).getCell(1);
-				XSSFCell cellvalue = sheet.getRow(i).getCell(2);
+				XSSFCell cellVariable = sheet.getRow(i).getCell(0);
+				XSSFCell cellvalue = sheet.getRow(i).getCell(1);
 				key = cellVariable.getStringCellValue();
 
 				switch(cellvalue.getCellTypeEnum()){
@@ -47,8 +47,8 @@ public class Config {
 	
 	public String getEnvDeails(String key){
 		String value = "";
-		if(envData.containsKey(key))
-			value =  envData.get(key);
+		if(envData.containsKey(key.toLowerCase()))
+			value =  envData.get(key.toLowerCase());
 		return value;
 	}
 }

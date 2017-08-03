@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23407" started-at="2017-08-03T16:50:44Z" finished-at="2017-08-03T16:51:08Z">
+    <groups>
+    </groups>
+    <test name="chrome test" duration-ms="23407" started-at="2017-08-03T16:50:44Z" finished-at="2017-08-03T16:51:08Z">
+      <class name="testCases.SearchFlightsNewTours">
+        <test-method status="PASS" signature="beforeExecution()[pri:0, instance:testCases.SearchFlightsNewTours@42dafa95]" name="beforeExecution" is-config="true" duration-ms="666" started-at="2017-08-03T22:20:44Z" finished-at="2017-08-03T22:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeExecution -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testCases.SearchFlightsNewTours@42dafa95]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-08-03T22:20:44Z" finished-at="2017-08-03T22:20:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeEachTestCase()[pri:0, instance:testCases.SearchFlightsNewTours@42dafa95]" name="beforeEachTestCase" is-config="true" duration-ms="7623" started-at="2017-08-03T22:20:44Z" finished-at="2017-08-03T22:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestCase -->
+        <test-method status="PASS" signature="searchingFlights(utilities.DataLoader)[pri:0, instance:testCases.SearchFlightsNewTours@42dafa95]" name="searchingFlights" duration-ms="15379" started-at="2017-08-03T22:20:52Z" data-provider="searchingData" finished-at="2017-08-03T22:21:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[utilities.DataLoader@35db6276]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingFlights -->
+        <test-method status="PASS" signature="afterEachTestCase()[pri:0, instance:testCases.SearchFlightsNewTours@42dafa95]" name="afterEachTestCase" is-config="true" duration-ms="352" started-at="2017-08-03T22:21:07Z" finished-at="2017-08-03T22:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestCase -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.SearchFlightsNewTours@42dafa95]" name="afterSuite" is-config="true" duration-ms="51" started-at="2017-08-03T22:21:08Z" finished-at="2017-08-03T22:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.SearchFlightsNewTours -->
+    </test> <!-- chrome test -->
+  </suite> <!-- Suite -->
+</testng-results>
