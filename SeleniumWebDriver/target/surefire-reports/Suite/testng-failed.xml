@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="testNGPckage.Assertions">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testNGPckage.Assertions -->
+      <class name="testNGPckage.Annotations2">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- testNGPckage.Annotations2 -->
+      <class name="testNGPckage.TestNgAnnotations">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeGroups"/>
+        </methods>
+      </class> <!-- testNGPckage.TestNgAnnotations -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
